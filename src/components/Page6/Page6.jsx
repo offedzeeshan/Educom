@@ -14,6 +14,11 @@ function Page6 (){
             image: `${P62}`,
             description: "Visual-design principles can be applied consistently throughout the process of creating a polished UX map...",
         },
+        {
+          title: "UX Mapping Methods",
+          image: `${P62}`,
+          description: "Visual-design principles can be applied consistently throughout the process of creating a polished UX map...",
+      },
         
       
       ];
@@ -22,7 +27,7 @@ function Page6 (){
         <div className='pb-7'>
             <div className='ml-40 mb-5'><p className='font-bold'>Our recent blogs</p></div>
             <div>
-            <div className=' ml-40 space-y-2 mb-28'>
+            <div className=' flex justify-center px-32 mb-28'>
             {
                           project6.map((project, index) => {
                             return (

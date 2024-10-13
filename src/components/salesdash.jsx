@@ -6,6 +6,7 @@ import Page2 from '../components/page2/page2.jsx'
 import Page4 from '../components/Page4/Page4.jsx'
 import Page5 from '../components/Page5/Page5.jsx'
 import Page6 from '../components/Page6/Page6.jsx'
+import Footer from '../components/Footer/Footer.jsx'
 
 function SalesDash() {
   return (
@@ -50,9 +51,9 @@ function SalesDash() {
         </div> */}
         <div>
           <ul className="flex space-x-3">
-            <li>Program</li>
-            <li>Enterprise</li>
-            <li>Universities</li>
+            <a href="*"> <li>Program</li></a>
+            <a href="*"> <li>Enterprise</li></a>
+            <a href="*"> <li>Universities</li></a>
           </ul>
         </div>
         <div className="flex space-x-3 items-center">
@@ -71,6 +72,7 @@ function SalesDash() {
       <Page4/>
       <Page5/>
       <Page6/>
+      <Footer/>
     </>
   );
 }
